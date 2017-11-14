@@ -1,0 +1,9 @@
+<angular2-multiselect [data]="routeTags" [(ngModel)]="selectedRoutes" 
+[settings]="dropdownSettings" 
+(onSelect)="onItemSelect($event)" 
+(onDeSelect)="OnItemDeSelect($event)"
+(onSelectAll)="onSelectAll($event)"
+(onDeSelectAll)="onDeSelectAll($event)"></angular2-multiselect>
+
+
+<spinner class="progress"  *ngIf="loadingRoutes" [size]="40" [tickness]="1"></spinner>

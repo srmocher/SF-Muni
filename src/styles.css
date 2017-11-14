@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+angular2-multiselect{
+    display:inline-block;
+    width:250px;
+}
+
+
+
+  text{
+      font-family: sans-serif;
+      font-size: 8.4pt;
+      font-weight: bold;
+      text-anchor: middle;
+      cursor: default;
+      
+  }
+ 
+  .artery{
+      fill:#ddcc;
+  }
+
+  .freeway{
+      fill:#ffa500;
+      stroke:#ffa500;
+  }
+
+  .street{
+      fill:gray;
+      stroke:#C0C0C0;
+      opacity: 0.6
+  }
+
+  .neighborhood{
+      fill:wheat;
+      stroke:brown;
+  }
+
+  .visible-bus{
+      width:20px;
+      height:20px;
+      visibility: visible;
+  }
+
+  .hidden-bus{
+      width:0px;
+      height:0px;
+      visibility: hidden;
+  }
+
+  svg{
+      top:15px;
+      left:15px;
+      margin: 20px;
+  }
+
